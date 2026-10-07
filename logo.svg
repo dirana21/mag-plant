@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <linearGradient id="gradEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="gradMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+    <linearGradient id="gradGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial Emblem: Tire tread circle + Heavy compression press chevron -->
+  <g transform="translate(10, 8)">
+    <!-- Outer tire tread segmented ring -->
+    <circle cx="32" cy="32" r="28" stroke="#334155" stroke-width="4" stroke-dasharray="8 4" stroke-linecap="round"/>
+    
+    <!-- Inner recycling / compression flow circle -->
+    <circle cx="32" cy="32" r="20" stroke="url(#gradEmerald)" stroke-width="3" stroke-linecap="round" stroke-dasharray="28 8"/>
+    
+    <!-- Central Industrial Core: Vulcanization Press Shape / Diamond / Tire Crown -->
+    <path d="M32 18 L42 32 L32 46 L22 32 Z" fill="#1e293b" stroke="url(#gradEmerald)" stroke-width="2.5"/>
+    <circle cx="32" cy="32" r="4" fill="#34d399" />
+    
+    <!-- Tread teeth accents -->
+    <line x1="32" y1="6" x2="32" y2="10" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <line x1="32" y1="54" x2="32" y2="58" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <line x1="6" y1="32" x2="10" y2="32" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <line x1="54" y1="32" x2="58" y2="32" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography: M A G -->
+  <text x="88" y="52" font-family="'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="44" letter-spacing="4" fill="url(#gradMetal)">M</text>
+  <text x="144" y="52" font-family="'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="44" letter-spacing="4" fill="url(#gradEmerald)">A</text>
+  <text x="198" y="52" font-family="'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="44" letter-spacing="4" fill="url(#gradMetal)">G</text>
+
+  <!-- Subtitle: ЗАВОД ПЕРЕРОБКИ ШИН ТА ГУМОТЕХНІКИ -->
+  <text x="90" y="68" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="9.5" letter-spacing="3" fill="#64748b">RECYCLING &amp; RUBBER TECH</text>
+</svg>
