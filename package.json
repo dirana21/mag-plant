@@ -1,0 +1,36 @@
+{
+  "name": "siteforpapa",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node dev.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "tire-recycling",
+    "rubber-molding",
+    "industrial",
+    "plant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "MAG Tire Recycling & Rubber Compression Plant Official Website",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0",
+    "sanitize-html": "^2.18.0",
+    "zod": "^4.6.5"
+  }
+}
